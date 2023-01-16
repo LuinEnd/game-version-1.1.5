@@ -1,0 +1,141 @@
+#html {
+background-color: black;
+}
+
+#gameContent {
+	width: 100vw;
+	height: 100vh;
+	font-family: monospace;
+}
+
+#gameScreenProtection {
+	width: 102vw;
+	height: 100vh;
+	opacity: 20%;
+	position: absolute;
+	top: 0vh;
+	left: 0vw;
+	z-index: 9;
+}
+
+#gameStage {
+	width: 90vw;
+	height: 80vh;
+	border-style: solid;
+	border-color: black;
+	border-width: 0.5vw;
+	border-radius: 2vw;
+	background-color: black;
+	position: absolute;
+	top: 5vh;
+	left: 5vw;
+	z-index: 1;
+}
+
+#gameStageBackground {
+	width: 90vw;
+	height: 80vh;
+	border-radius: 3vw;
+	opacity: 90%;
+	z-index: 0;
+}
+
+#gameCommands {
+	border-style: solid;
+	border-color: black;
+	border-width: 0.5vw;
+	color: black;
+	background-color: lightgreen;
+	position: absolute;
+	top: 0vh;
+	z-index: 10;
+}
+
+#gameConsoleLog {
+	font-size: 1vw;
+	color: blue;
+	background-color: lightgreen;
+	opacity: 50%;
+	position: absolute;
+	top: 0vh;
+	left: 20vw;
+	z-index: 10;
+}
+
+#gameMovementButtons {
+	position: absolute;
+	top: 70vh;
+	left: 80vw;
+	z-index: 10;
+}
+
+#gameUpButton {
+	width: 5vw;
+	height: 5vw;
+	border-style: solid;
+	border-color: black;
+	border-width: 0.5vw;
+	border-radius: 5vw;
+	font-size: 4vw;
+	text-align: center;
+	position: absolute;
+	top: -6vh;
+	opacity: 50%;
+	z-index: 10;
+}
+
+#gameDownButton {
+	width: 5vw;
+	height: 5vw;
+	border-style: solid;
+	border-color: black;
+	border-width: 0.5vw;
+	border-radius: 5vw;
+	font-size: 4vw;
+	text-align: center;
+	position: absolute;
+	top: 6vh;
+	opacity: 50%;
+	z-index: 10;
+}
+
+#gameLeftButton {
+	width: 5vw;
+	height: 5vw;
+	border-style: solid;
+	border-color: black;
+	border-width: 0.5vw;
+	border-radius: 5vw;
+	font-size: 4vw;
+	text-align: center;
+	position: absolute;
+	position: absolute;
+	left: -6vw;
+	opacity: 50%;
+	z-index: 10;
+}
+
+#gameRightButton {
+	width: 5vw;
+	height: 5vw;
+	border-style: solid;
+	border-color: black;
+	border-width: 0.5vw;
+	border-radius: 5vw;
+	font-size: 4vw;
+	text-align: center;
+	position: absolute;
+	left: 6vw;
+	opacity: 50%;
+	z-index: 10;
+}
+
+
+@keyframes RGB {
+	0% {background-color: blue}
+	20% {background-color: green}
+	40% {background-color: yellow}
+	60% {background-color: red}
+	80% {background-color: purple}
+	100% {background-color: blue}
+}

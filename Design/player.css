@@ -1,0 +1,29 @@
+#gamePlayer {
+	width: 7vw;
+	height: 7vw;
+	border-style: dashed;
+	border-color: transparent;
+	border-width: 0.5vw;
+	border-radius: 5vw;
+	position: absolute;
+	top: 40vh;
+	left: 50vw;
+	z-index: 5;
+	
+}
+
+#gameUsername {
+	width: 12vw;
+	height: 12vw;
+	position: absolute;
+	top: -4vh;
+	left: -1vw;
+	font-size: 3vw;
+	z-index: 5;
+}
+
+#gamePlayerImage {
+	width: 7vw;
+	height: 7vw;
+	z-index: 5;
+}

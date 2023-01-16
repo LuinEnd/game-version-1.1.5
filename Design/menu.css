@@ -1,0 +1,61 @@
+#html {
+	background-color: black;
+}
+
+#menuContent {
+	width: 100vw;
+	height: 100vh;
+	font-family: monospace;
+}
+
+#menuTitle {
+	width: 40vw;
+	border-style: solid;
+	border-color: black;
+	border-width: 1vw;
+	border-radius: 5vw;
+	background-color: lightblue;
+	font-size: 7vw;
+	text-align: center;
+	margin: auto;
+	z-index: 10;
+}
+
+#menuPlayButton {
+	width: 20vw;
+	border-style: solid;
+	border-color: black;
+	border-width: 0.5vw;
+	border-radius: 5vw;
+	background-color: lightblue;
+	font-size: 4vw;
+	text-align: center;
+	margin: 30vh auto;
+	z-index: 10;
+}
+
+#menuSettingsButton {
+	width: 20vw;
+	border-style: solid;
+	border-color: black;
+	border-width: 0.5vw;
+	border-radius: 5vw;
+	background-color: lightblue;
+	font-size: 4vw;
+	text-align: center;
+	margin: -25vh auto;
+	z-index: 10;
+}
+
+#menuCreditsButton {
+	width: 20vw;
+	border-style: solid;
+	border-color: black;
+	border-width: 0.5vw;
+	border-radius: 5vw;
+	background-color: lightblue;
+	font-size: 4vw;
+	text-align: center;
+	margin: 30vh auto;
+	z-index: 10;
+}
